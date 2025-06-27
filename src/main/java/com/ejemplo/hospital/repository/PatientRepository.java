@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, Long> {
-    // acá definir métodos personalizados 
+    // acá puedo definir métodos personalizados:
     // Buscar pacientes por nombre
 List<Patient> findByFirstName(String firstName);
 
