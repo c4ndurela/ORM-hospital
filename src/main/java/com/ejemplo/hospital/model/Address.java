@@ -1,5 +1,13 @@
 package com.example.demo.model;
 
-public enum Gender {
-    MALE, FEMALE, OTHER
+import jakarta.persistence.Embeddable;
+import lombok.Data;
+
+@Data
+@Embeddable
+public class Address {
+    private String street;
+    private String city;
+    private String state;
+    private String postalCode;
 }
