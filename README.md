@@ -26,10 +26,8 @@ Utilizado:
   
    Subclase: Staff
   
-Falta:
+  El entity Hospital con sus relaciones
 
-El entity Hospital con sus relaciones
+ falta: Configurar application.properties para H2 
 
-Configurar application.properties para H2 
-
-Agregar un RestController general para probar todo junto
+  Agregar un RestController general para probar todo junto
